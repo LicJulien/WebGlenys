@@ -1,0 +1,147 @@
+body {
+    margin: 0;   
+    display:block;
+    box-sizing: border-box;
+}
+
+
+nav {
+    box-shadow: 0px 9px 5px 0px rgba(190,165,165,0.7);
+    
+}
+
+#mapa {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapa .container .row .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+strong {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Jura', sans-serif;
+    font-size: 13px;
+    background-color: #d1c0c08a;
+    margin-top: 15px;
+}
+
+
+.Slide-conteiner {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    top: 15px;
+    margin-top: 78px;
+
+}
+
+.left-slide {
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.left-slide > div {
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left-slide h1 {
+    font-size: 40px; 
+}
+
+.right-slide {
+    height: 100%;
+    position: absolute;
+    left: 35%;
+    width: 65%;
+    transition: 0.5s ease-in-out;
+}
+
+.right-slide > div {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+
+button {
+    background-color: #fff;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 15px;
+}
+
+button:hover {
+    color: #222;
+}
+
+.Slide-conteiner .action-button button {
+    position: absolute;
+    left: 35%;
+    z-index: 100;
+    
+}
+
+.Slide-conteiner .action-button .down-button {
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.Slide-conteiner .action-button .up-button {
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+.c-item {
+    height: 520px;
+    margin-top: 120px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.offcanvas {
+    --bs-offcanvas-width: 250px !important;
+} 
+.nav-item:hover {
+    text-decoration: underline !important;
+    
+}
+.active {
+    text-decoration: underline !important;
+}
