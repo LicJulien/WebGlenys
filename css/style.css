@@ -71,8 +71,10 @@ footer {
     
 }
 
-.left-slide h1 {
-    font-size: 40px; 
+.left-slide h2 {
+    font-size: 33px;
+    top: -50px; 
+    position: relative;
 }
 
 .right-slide {
